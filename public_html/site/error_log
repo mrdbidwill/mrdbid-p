@@ -1,0 +1,134 @@
+
+[05-Apr-2024 06:42:36 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rmqchemy_mrdbid_php.cap_color' doesn't exist in /home2/rmqchemy/info/class_mushroom.php:506
+Stack trace:
+#0 /home2/rmqchemy/info/class_mushroom.php(506): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 /home2/rmqchemy/info/class_mushroom.php(94): mushroom->admin_print_radio_list_one_LOOKUP_table_EDIT(Object(mysqli), 'cap_color', 1)
+#2 /home2/rmqchemy/info/class_mushroom.php(5862): mushroom->list_all_characters_lookup(Object(mysqli), '1')
+#3 /home2/rmqchemy/public_html/site/member_dashboard.php(239): mushroom->toggle_characters_list(Object(mysqli), '1', 's', 's', 'specimens', 0)
+#4 {main}
+  thrown in /home2/rmqchemy/info/class_mushroom.php on line 506
+[05-Apr-2024 07:23:34 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rmqchemy_mrdbid_php.cap_color' doesn't exist in /home2/rmqchemy/info/class_mushroom.php:506
+Stack trace:
+#0 /home2/rmqchemy/info/class_mushroom.php(506): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 /home2/rmqchemy/info/class_mushroom.php(94): mushroom->admin_print_radio_list_one_LOOKUP_table_EDIT(Object(mysqli), 'cap_color', 1)
+#2 /home2/rmqchemy/info/class_mushroom.php(5862): mushroom->list_all_characters_lookup(Object(mysqli), '1')
+#3 /home2/rmqchemy/public_html/site/member_dashboard.php(239): mushroom->toggle_characters_list(Object(mysqli), '1', 's', 's', 'specimens', 0)
+#4 {main}
+  thrown in /home2/rmqchemy/info/class_mushroom.php on line 506
+[05-Apr-2024 07:30:27 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rmqchemy_mrdbid_php.cap_color' doesn't exist in /home2/rmqchemy/info/class_mushroom.php:506
+Stack trace:
+#0 /home2/rmqchemy/info/class_mushroom.php(506): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 /home2/rmqchemy/info/class_mushroom.php(94): mushroom->admin_print_radio_list_one_LOOKUP_table_EDIT(Object(mysqli), 'cap_color', 1)
+#2 /home2/rmqchemy/info/class_mushroom.php(5862): mushroom->list_all_characters_lookup(Object(mysqli), '1')
+#3 /home2/rmqchemy/public_html/site/member_dashboard.php(239): mushroom->toggle_characters_list(Object(mysqli), '1', 's', 's', 'specimens', 0)
+#4 {main}
+  thrown in /home2/rmqchemy/info/class_mushroom.php on line 506
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Undefined variable $character_value in /home2/rmqchemy/info/class_mushroom.php on line 879
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Undefined variable $query_update in /home2/rmqchemy/info/class_mushroom.php on line 879
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Undefined variable $character_color in /home2/rmqchemy/info/class_mushroom.php on line 896
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home2/rmqchemy/info/class_mushroom.php on line 902
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home2/rmqchemy/info/class_mushroom.php on line 902
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home2/rmqchemy/info/class_mushroom.php on line 903
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home2/rmqchemy/info/class_mushroom.php on line 903
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home2/rmqchemy/info/class_mushroom.php on line 904
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home2/rmqchemy/info/class_mushroom.php on line 904
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Undefined variable $character in /home2/rmqchemy/info/class_mushroom.php on line 910
+[05-Apr-2024 07:30:38 America/Boise] PHP Warning:  Undefined variable $character_color in /home2/rmqchemy/info/class_mushroom.php on line 910
+[05-Apr-2024 07:47:39 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 07:47:39 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 07:47:41 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 07:47:41 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 07:48:04 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 07:48:04 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 07:48:06 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 07:48:06 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 11:14:37 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 11:14:37 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 11:14:39 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 11:14:39 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 11:18:21 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 11:18:21 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 11:18:23 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 11:18:23 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 11:26:18 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 11:26:18 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 11:26:19 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 11:26:19 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 11:56:39 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 11:56:39 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 11:56:40 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 11:56:40 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 12:24:42 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 12:24:42 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 12:24:43 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 12:24:43 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 13:00:32 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 13:00:32 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 13:00:33 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 13:00:33 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 13:18:43 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 13:18:43 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 13:18:46 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 13:18:46 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 13:54:51 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 13:54:51 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 13:54:52 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 13:54:52 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 14:13:52 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 14:13:52 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 14:13:54 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 14:13:54 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:07:09 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:07:09 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:41:41 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:41:41 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:41:43 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:41:43 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:42:41 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:42:41 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:42:43 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:42:43 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:51:40 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:51:40 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:51:42 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:51:42 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:51:42 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:51:42 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:51:43 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:51:43 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:52:22 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:52:22 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 15:52:24 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 15:52:24 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:25:14 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:25:14 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:25:15 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:25:15 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:26:41 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:26:41 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:26:43 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:26:43 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:31:34 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:31:34 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:31:35 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:31:35 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:55:59 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:55:59 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:56:00 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:56:00 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:56:14 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:56:14 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:56:16 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:56:16 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:58:08 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:58:08 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 16:58:09 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 16:58:09 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 17:09:54 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 17:09:54 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 17:09:55 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 17:09:55 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_member.php:155) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 17:40:12 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 17:40:12 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
+[05-Apr-2024 17:40:14 America/Boise] PHP Warning:  Undefined variable $memberID in /home2/rmqchemy/public_html/site/member.php on line 236
+[05-Apr-2024 17:40:14 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/rmqchemy/info/class_page.php:806) in /home2/rmqchemy/public_html/site/member.php on line 247
