@@ -10,6 +10,6 @@ Right now (4-9-2024) the MBList database is the source for genus/species data, b
 
 The main project, mrdbid.com will be done using Laravel. This will free me from the security headaches that require more time, attention and know how than I possess. 
 
-So, while this is working code, hopefully, it has not (and will not ) been rigorously tested.
+So, while this is working code, hopefully, it has not been rigorously tested. Nor is it likely to be since I will move on to the Laravel side.
 
 At a minimum, I hope it saves someone some time with data input.
